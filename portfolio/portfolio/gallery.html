@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Gallery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--------css----->
+    <link rel="stylesheet" href="style.css">
+
+    <!--------jquery------>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-------font awesome-->
+    <script src="https://kit.fontawesome.com/f665390b3c.js" crossorigin="anonymous"></script>
+    
+    <!------text amimation--->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!----------jquery---------------->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script> 
+      $(document).ready(function(){
+        $("#dark").click(function(){
+          $(".theme").css("background","black",);
+          $(".theme").css("color","white",);
+          $('.card-body').css("background",'rgb(148, 46, 63)');
+        });
+
+        $("#light").click(function(){
+          $(".theme").css("background","white",);
+          $(".theme").css("color","black",);
+         });
+      });
+      </script>
+
+  </head>
+  <body>
+
+    <!---------header icon---->
+<header class="py-1 bg1">
+  <div class="container-fluid theme">
+      <div class="container">
+          <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-white">
+                  <a href="#" class=" text-decoration-none text-white px-1" target="_blank" title="Linkedin"><i class="fab fa-linkedin "></i></a>
+                  <a href="#" class=" tesxt-decoration-none text-white px-1" target="_blank" title="github"><i class="fab fa-github "></i></a>
+                  <a href="https://www.facebook.com/myunitbook/" class="text-decoration-none text-white px-1" target="_blanck" title="facebook"><i class="fab fa-facebook "></i></a>
+                  <a href="https://www.instagram.com/myunitbook/" class="text-decoration-none text-white px-1" target="_blanck" title="instagram"><i class="fab fa-instagram "></i></a>
+                  <a href="https://www.youtube.com/channel/UCJEnqQboHtQAOdCYSEp1gEw" class="text-decoration-none text-white px-1" target="_blanck" title="youtube"><i class="fab fa-youtube "></i></a>
+                  <div class=" text-white"></div>
+              </div>
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                  <a href="#" class="text-decoration-none text-white "><i class="fas fa-user-lock"></i>Sign up</a>&nbsp;&nbsp;
+                  <a href="#" class="text-decoration-none text-white "><i class="fas fa-user-lock "></i>Sign in</a>
+                  <button class="btn text-light" id="dark"><i class="fa fa-moon" aria-hidden="true"></i></button>
+                  <button class="btn text-light" id="light"><i class="fa fa-sun" aria-hidden="true"></i></button>
+              </div>
+          </div>
+      </div>
+  </div>
+  </header>
+  <!---------header icon---->
+  
+<!----nav section-------->
+<div class="container-fluid" style="border-bottom: 1px dotted#e83e8c;"> 
+  <nav class="navbar navbar-expand-lg navbar-light  text-dark" >
+   <a href="" class=" navbar-brand" ><span style="color: #e83e8c; font-size: 30px;"><i class="fa fa-gitlab" aria-hidden="true"></i>
+
+
+      T</span><samp>he</samp> <span style="color: #e83e8c; font-size: 25px;">B</span><span>eginner</span> <span style="color: #e83e8c; font-size: 20px;">D</span><span>eveloper</span></a>
+<!------ toggle button------>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" 
+aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" style=" border: 1px solid #e83e8c;">
+<span class="navbar-toggler-icon" ></span>
+</button>
+
+<!------ toggle button------>
+
+
+
+<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03" >
+   <ul class=" navbar-nav text-end " >
+      <li class=" nav-item active "><a href="index.html" class=" nav-link" ><span style="color: #e83e8c;"><i class="fa fa-home" aria-hidden="true"></i></span>home</a></li>
+<!-------------------------------banner section-------------------------->
+
+
+    <!----dropdown section--->  
+      <li class=" nav-item dropdown">
+          <a href="#" class=" nav-link  dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="color: #e83e8c;"><i class="fa fa-file-word-o" aria-hidden="true">
+          </i>
+
+
+            projects</a>
+            <div class="dropdown-menu" style="border: 1px solid #e83e8c;" >
+              <a class="dropdown-item" href="index2.html" style="color: #e83e8c;" target="_blank">projrct1</a>
+              <a class="dropdown-item" href="#" style="color: #e83e8c;" target="_blank">project2</a>
+              <a class="dropdown-item" href="#" style="color: #e83e8c;" target="_blank">project3</a>
+            </div>
+   </li>
+   <!----dropdown section--->  
+<li class=" nav-item"><a href="About.html " class=" nav-link" ><span style="color: #e83e8c;"><i class="fa fa-user" aria-hidden="true"></i>A</span>bout us</a></li>
+
+<li class=" nav-item"><a href="" class=" nav-link" ><span style="color: #e83e8c;"><i class="fa fa-picture-o" aria-hidden="true"></i>G</span>allery</a></li>
+      
+<li class=" nav-item"><a href="contact.html" class=" nav-link" ><span style="color: #e83e8c;"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>C</span>ontact us</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+<!----nav section end--------> 
+
+<!----------image slide----->
+<div class="main">
+
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=1" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=2" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=3" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=4" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=5" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=6" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=7" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=8" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=9" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=10" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=11" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=12" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=13" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=14" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=15" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=16" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=17" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=18" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=19" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=20" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=21" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=22" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=23" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=24" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=25" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=26" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=27" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=28" alt="image"></a>
+  </div>
+  <div class="single-column">
+    <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+    <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+  </div>
+</div>
+
+
+<!----------image slide----->
+
+
+<!-------------gallery-banner----->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-6 gallery-left">
+         <h1 class="text-light text-center py-5"><b>Best Photo Studio</b></h1>
+         <h4 class="text-light text-center text-uppercase ">A high quality photography</h4>
+         <p class="text-light text-center ">This is my projects and <br>my creativity for all ocation </p>
+         <button class="btn btn-outline-light mt-2" onclick="main1()">Read More</button><br>
+         <button class="btn btn-outline-light mt-2" onclick="main2()">Wedding Stills</button><br>
+         <button class="btn btn-outline-light mt-2" onclick="main3()">Top Expertise</button><br>
+         <button class="btn btn-outline-light mt-2" onclick="main4()">Model Photoshoot</button>
+      </div> 
+      <div class="col-lg-8 col-md-8 col-sm-6 gallery-right">
+        <div class="gallery-slider mt-5">
+         <img  id="main" src="https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/banner1.jpg" height="350px" width="100%">
+         </div>
+      </div>
+    </div>
+</div>
+
+<!-------------gallery-banner----->
+
+
+
+
+<!-----------gallery---------->
+
+<div class="container-fluid py-5 text-center theme">
+  <h1><b>Amazing Photo Gallery</b></h1>
+  <div class="container py-5">
+    <div class="row ">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="parent ">
+             <div class="child bg-seven">
+              <div class="pc-one">
+                <div class="pc-one1">
+                  <h5>Portrait photography</h5>
+                  </div>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+             <div class="parent">
+                <div class="child bg-eight">
+                  <div class="pc-one">
+                    <div class="pc-one1">
+                      <h5>Wedding photography</h5>
+                      </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="parent"id="mid-photo" >
+             <div class="child bg-ninth" id="mid-foto">
+              
+             </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="parent">
+              <div class="child bg-eleventh">
+                <div class="pc-one">
+                  <div class="pc-one1">
+                    <h5>Model photography</h5>
+                    </div>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="parent">
+              <div class="child bg-twelve">
+                <div class="pc-one">
+                  <div class="pc-one1">
+                    <h5>Photojournalism</h5>
+                    </div>
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------gallery---------->
+
+
+<div class="container-fluid mt-0 theme" style="height: auto;">
+  <h1 class="py-5 text-center text-capitalize" ><b>beautiful memories</b></h1>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6"> 
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi2.jpg" alt=""> 
+          </div>
+          <div class="content" id="p1" >
+              <h1>Beautiful smile</h1>
+              <p>Your smile is your strength so smile freely without any fear</p>
+          </div>
+      </div> 
+      </div>
+    
+      <div class="col-lg-3 col-md-4 col-sm-6" >
+        <div class="box">
+          <div class="box-img">
+              <img src="./img/pallavi5.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p2">
+              <h1>beautiful of the nature</h1>
+              <p>nature is your best medicine</p>
+          </div>
+      </div> 
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mt-sm-4 mt-md-0">
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi3.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p3">
+              <h1>beautiful face</h1>
+              <p>everything  depend on your mood </p>
+          </div>
+      </div> 
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mt-sm-4 mt-lg-0">
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi9.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p4">
+              <h1>beautiful</h1>
+              <p>Always ready for photo shoot</p>
+          </div>
+      </div> 
+      </div>
+      <div class="col-lg-3 mt-4 col-md-4 col-sm-6">
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi7.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p5">
+              <h1>beautiful rose</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+          </div>
+      </div> 
+      </div>
+      <div class="col-lg-3 mt-4 col-md-4 col-sm-6">
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi6.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p6">
+              <h1>beautiful rose</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+          </div>
+      </div> 
+      </div>
+      <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p7">
+              <h1>beautiful rose</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+          </div>
+      </div> 
+      </div>
+      <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+        <div class="box">
+          <div class="box-img">
+              <img src="img/pallavi8.jpeg" alt=""> 
+          </div>
+          <div class="content" id="p8">
+              <h1>beautiful rose</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+          </div>
+      </div> 
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<!----------------Latest Blog Posts---------------->
+<section class=" container-fluid  py-5 theme">
+  <h1 class=" text-center"><b>Latest Blog Posts</b></h1>
+  <p class=" text-center py-5 text-muted ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+    accusantium doloremque, eaque ipsa quae ab illo inventore.</p>
+    <div class="container">    
+      <div class="row">
+   <div class="col-md-4">
+     <div class="card" style=" border:none;">
+       <img src="https://images.unsplash.com/photo-1591035897819-f4bdf739f446?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aGFwcHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+       <div class="card-body">
+         <p style="color: yellowgreen ">photography</p>
+         <h5><b>You Should Fall In Love With photography </b></h5><br>
+         <h6 style="color: red;">READ MORE</h6>
+       </div>
+     </div>
+     
+   </div> 
+   <div class="col-md-4">
+    <div class="card shadow p-3 mb-5 bg-white rounded "  style=" border:none;">
+      <img src="https://images.unsplash.com/photo-1664575599730-0814817939de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+      <div class="card-body">
+        <p style="color: yellowgreen ">Camera</p>
+        <h5><b>Your Camera Manual Portrait photography</b></h5><br>
+        <h6 style="color: red;">READ MORE</h6>
+      </div>
+    </div>
+       
+  </div> 
+  <div class="col-md-4">
+    <div class="card" style=" border:none;">
+      <img src="https://images.unsplash.com/photo-1525072124541-6237cc05f4f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhhcHB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+      <div class="card-body" >
+        <p style="color: yellowgreen  ">Photo Gallery</p>
+        <h5><b>The Best Professional Travel Photos </b></h5><br>
+        <h6 style="color: red;">READ MORE</h6>
+      </div>
+    </div>
+    </div> 
+  </div>
+</div>
+</section>
+
+<!----------------Latest Blog Posts end------------>
+
+
+<!-----------------------footer------------>
+
+<div class="container-fluid text-center  py-5 bg2" style="color:white;">
+
+  <i class="fa fa-gitlab fa-2x px-4 py-4 footer-icon" aria-hidden="true  mt-5 "></i>
+  <div class="container mt-5" >
+    <div class="row pb-5" style="border-bottom:   1px dotted rgb(148, 46, 63);">
+    <div class="col-lg-3" style="border-right: 0.1ex solid rgb(148, 46, 63);">
+      <h5>Address</h5>
+      <p>Vijay Vihar Balram Nagar loni </p>
+    </div>
+    <div class="col-lg-3" style="border-right: 0.1ex solid rgb(148, 46, 63);">
+      <h5>Email</h5>
+      <p>pallavishisodiya16@gmail.com</p>
+    </div>
+    <div class="col-lg-3" style="border-right: 0.1ex solid rgb(148, 46, 63);">
+      <h5>Phone</h5>
+      <p>8447156069</p>
+    </div>
+    <div class="col-lg-3" >
+      <h5>Fax</h5>
+      <p>+0001110000</p>
+    </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-lg-4 text-left">
+        <p>privacy policy</p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <p>@2020 Weird . All rights reserved. Design by W3Layouts</p>
+      </div>
+      <div class="col-lg-3 text-right">
+        <a href="https://www.facebook.com/myunitbook/" class="text-decoration-none text-white px-1" target="_blanck" title="facebook"><i class="fab fa-facebook icon-colour" ></i></a>
+        <a href="https://www.instagram.com/myunitbook/" class="text-decoration-none text-white px-1" target="_blanck" title="instagram"><i class="fab fa-instagram icon-colour"></i></a>
+        <a href="https://www.youtube.com/channel/UCJEnqQboHtQAOdCYSEp1gEw" class="text-decoration-none text-white px-1" target="_blanck" title="youtube"><i class="fab fa-youtube icon-colour"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="javascript.js"></script>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

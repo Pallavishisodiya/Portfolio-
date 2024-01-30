@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DotCom - Creative Agency Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <style>
+
+       *{margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        }
+
+
+    body{display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/1.jpg);
+       padding: 10px;
+        
+    }
+    .container{
+        max-width: 700px;
+        width: 100%;
+        
+        padding: 25px 30px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 2px solid #9b59b6;
+
+    }
+    .container .title{
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+        
+
+    }
+    .container .title::before{
+        content: '';
+        left: 0%;
+        bottom: 0;
+        position: absolute;
+        height: 3px;
+        width: 30px;
+        background:linear-gradient(135deg, #71b7e6,#9b59b6);
+        
+    }
+    .container form .user-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .container form .input-box{
+        width: calc(100% / 2 - 20px);
+        margin: 20px 0 12px 0;
+        margin-bottom: 15px;
+    }
+    .container form .input-box .details{
+       font-weight: 500;
+       margin-bottom: 5px;
+       display: block;
+    }
+    .container form .input-box input{
+        height: 45px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1 px solid #2A2550;
+        padding-left: 15px;
+        font-size: 16px
+    
+        
+    }
+
+    .container form .input-box input:focus ,
+    .container form .input-box input:valid{
+        border-color: #2A2550;
+        transition: all 0.3s ease;
+
+    }
+
+    form .gender-details .category{
+        display: flex;
+        width: 80%;
+        margin: 14px 0;
+        justify-content: space-between;
+       
+    }
+    .gender-details .category label{
+        display: flex;
+        text-align: center;
+
+    }
+
+    .gender-details .category .dot{
+        height: 18px;
+        width: 18px;
+        background: #d9d9dd;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: solid 5px transparent;
+        transform: all 0.3 ease;
+    }
+    #dot-1:checked ~ .category label .one,
+    #dot-2:checked ~ .category label .two,
+    #dot-3:checked ~ .category label .three{
+        border-color: #d9d9d9;
+        background: #9b59b6;
+    }
+    form input[type="radio"]{
+    display: none;    
+
+    }
+    form .button{
+        height: 45px;
+        margin: 45px 0;
+    }
+    form .button input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        color: #fff;
+        border: none;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        background:linear-gradient(135deg, #71b7e6,#9b59b6) ;
+    }
+    form .button input:hover{
+        background:linear-gradient(-135deg, #71b7e6,#9b59b6) ;
+
+    }
+    @media(max-width:584px){
+        .container{
+            width: 100%;
+        }
+        .container form .input-box{
+        width:100%;
+        margin-bottom: 15px;
+    }
+
+    form .gender-details .category{
+        width: 100%;
+        
+       }
+       .container form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }   
+}
+
+
+    
+    </style> 
+</head>
+
+
+
+<body>
+    
+    <!-- Registration  -->
+
+    <div class=" container ">
+        <div class=" title"> Registration</div>
+        <form  active="#">
+            <div class="user-details">
+                <div class=" input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                <div class=" input-box">
+                    <span class="details">User Name</span>
+                    <input type="text" placeholder="Enter user name" required>
+                </div>
+                <div class=" input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter email id" required>
+                </div>
+                <div class=" input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" placeholder="Enter your number" required>
+                </div>
+                <div class=" input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter your password" required>
+                </div>
+                <div class=" input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="confirm your password" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+                <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Male</span>
+                </label>
+                <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Female</span>
+                </label>
+                <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Prefer not to say</span>
+                </label>
+            </div>
+           </div>
+           <div class="button">
+               <input type="Submit" name="" value="Register">
+           </div>
+        </form>
+
+    </div>
+   
+    <!-- Contact End -->
+
+
+
+
+    
+</body>
+
+</html>

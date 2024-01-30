@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+<style>
+    *{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 32);
+}
+.wrapper{
+    display: flex;
+}
+.wrapper .static-text{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    list-style: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li{
+   list-style: none;
+   color: blueviolet;
+   font-size: 60px;
+   font-size: 500;
+   top: 0%;
+   position: relative;
+   animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+
+.dynamic-txts li{
+    position: relative;
+}
+
+.dynamic-txts li::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 10%;
+    left: 0;
+    background: rgb(26, 26, 32);
+    border-left: 2px solid blueviolet;
+    animation: typing 3s steps(16) infinite;
+    overflow: hidden;
+    
+}
+
+@keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 30px)
+    }
+    100%{
+        left: 0;
+    }
+}
+
+</style>
+<body>
+<div class="wrapper">
+    <div class="static-text">I'am a</div>
+     <ul class="dynamic-txts">
+        <li><span>Web Designer</span></li>&nbsp;
+        <li><span>UI/UX Designer</span></li><br>&nbsp;
+        <li><span>Beginner Developer</span></li>
+        <li><span>Unique Developer</span></li>
+   </ul>
+   <div class="login-hello">
+    
+   </div>
+</div>    
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>First login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    *{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    body{display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.istockphoto.com/id/1185010668/photo/abstract-3d-concrete-cube-background-with-neon-lights.jpg?b=1&s=170667a&w=0&k=20&c=9LzT-u9QVrIdX09xmPUwYCyx_TbFIHRWcf6hxW6Hy0I=);
+    padding: 10px;
+    background-size: cover;
+}
+.container{
+        max-width: 700px;
+        width: 100%;
+       color: aliceblue;
+        padding: 25px 30px;
+        border-radius: 5px;
+        border: 2px solid #9b59b6;
+
+    }
+</style>
+
+  </head>
+  <body>
+
+<div class="container">
+    <div class="row ">
+        <div class="col-6 ">
+            <form method="get">
+                <div class="form-group">
+                  <label >Email address</label>
+                  <input type="email" class="form-control" id="username" required>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" >Password</label>
+                  <input type="password"  id="userpassword" class="form-control" >
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button onclick="login()" type="button" class="btn btn-primary py-2 px-4" style="background: #9b59b6; border: none; border-radius: 0%;" >Submit</button>
+              </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+  function login(){
+    var uname=document.getElementById('username').value;
+    var upass=document.getElementById('userpassword').value;
+
+    if(uname=="pallavishisodiya" && upass=="1616")
+
+   {
+    location.assign("file:///F:/My%20code/portfolio/portfolio/index.html");
+
+   }
+   else {
+    window.alert("login failed");
+    }
+  }
+
+</script>
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

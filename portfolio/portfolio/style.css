@@ -1,0 +1,712 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #FDAC53;
+    --secondary: #131313;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    }
+
+.bg1{background-color: #e83e8c}
+.bg2{background-color: #252525;}
+.bg3{background: rgb(240, 248, 252);}
+
+
+
+
+
+.banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://demo.w3layouts.com/demosWTR/Freedom/30-01-2020/weird-freedom-demo_Free/433096426/web/assets/images/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+
+.banner1{
+    height: 600px;
+    width: 100%;
+    background-image: url(./img/dots.png);
+    position: absolute;
+     }
+.banner-content{
+    height: 500px;
+    width: 60%;
+    
+    
+}  
+
+
+@media(max-width: 550px ){
+    .banner-content{
+        height: 500px;
+        width: 100%;
+        
+    }  
+}
+
+@media(max-width: 768px ){
+    .banner-content{
+        height: 500px;
+        width: 100%;
+        
+    }  
+}
+@media(max-width: 992px ){
+    .banner-content{
+        height: 500px;
+        width: 100%;
+        
+    }  
+}
+
+
+
+
+
+/*---------------banner--------------------*/
+
+
+/*-------Stunning Projects------*/
+
+.map iframe {
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 100%;
+}
+
+
+/*-------------experience--------------*/
+.ex1{
+    height: 250px; 
+    width: 100%;
+    background: #e83e8c;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0,0,0,0.5);
+
+}
+.ex2{
+    height: 250px; 
+    width: 100%;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0,0,0,0.5);
+
+}
+.ex2:hover{
+    height: 250px; 
+    width: 100%;
+    background: #e83e8c;
+    position: relative;
+    border-radius: 10px;
+    transition: all 5s;
+    
+
+}
+.exp1{
+    height:80px;
+    width: 40%;
+    border-radius: 50%;
+    background: #131313;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.exp-1{
+    height: 600px;
+    width: 100%;
+}
+
+@media( max-width: 550px){
+    .exp-1{
+        height: 600px;
+        width: 100%;
+        display: none;
+    }
+}
+
+
+/*--------------------skills------------------*/
+
+.html{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.html1{
+    height: 5px;
+    width: 80%;
+    position: absolute;
+    background: rgb(51,43,235);
+    background: linear-gradient(90deg, rgba(51,43,235,1) 1%, rgba(68,186,184,1) 52%);
+    animation: html 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.CSS{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.CSS1{
+    height: 5px;
+    width: 70%;
+    position: absolute;
+    background: rgb(140,69,13);
+    background: linear-gradient(90deg, rgba(140,69,13,1) 41%, rgba(252,197,97,1) 66%);
+    animation: css 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.JAVASCRIPT{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.JAVASCRIPT1{
+    height: 5px;
+    width: 50%;
+    position: absolute;
+    background: rgb(235,43,127);
+    background: linear-gradient(90deg, rgba(235,43,127,1) 38%, rgba(18,105,208,1) 93%);
+    animation: JAVASCRIPT 3s  infinite;
+    transition: ease-in-out;
+}
+
+
+@keyframes JAVASCRIPT{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.JQUERY{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.JQUERY1{
+    height: 5px;
+    width: 70%;
+    position: absolute;
+    background: rgb(140,13,93);
+    background: linear-gradient(90deg, rgba(140,13,93,1) 41%, rgba(252,97,190,1) 66%);
+    animation: JQUERY 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes JQUERY{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.BOOTSTRAP{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.BOOTSTRAP1{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background: rgb(51,43,235);
+    background: linear-gradient(90deg, rgba(51,43,235,1) 1%, rgba(68,186,184,1) 52%);
+    animation: BOOTSTRAP 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes BOOTSTRAP{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.PHOTOSHOP{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.PHOTOSHOP1{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background: rgb(140,69,13);
+    background: linear-gradient(90deg, rgba(140,69,13,1) 41%, rgba(252,197,97,1) 66%);
+    animation: PHOTOSHOP 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes PHOTOSHOP{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.GRAPHIC{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.GRAPHIC1{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background: rgb(235,43,127);
+    background: linear-gradient(90deg, rgba(235,43,127,1) 38%, rgba(18,105,208,1) 93%);
+    animation: GRAPHIC 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes GRAPHIC{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.UI{
+    height: 5px;
+    width: 100%;
+    background: #343a40;
+    position: relative;
+}
+.UI1{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background: rgb(140,13,93);
+    background: linear-gradient(90deg, rgba(140,13,93,1) 41%, rgba(252,97,190,1) 66%);
+    animation: UI 3s  infinite;
+    transition: ease-in-out;
+}
+
+@keyframes UI{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+/*--------------------skills------------------*/
+
+/*---------------------------projrct portfoliyo------*/
+
+.parent{
+    height: 250px;
+    width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgb(0,0,0,0.5);
+}
+
+.child{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+    position: absolute;
+}
+
+.bg-one{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/assets/images/g1.jpg);
+}
+.bg-two{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/assets/images/g2.jpg);
+}
+.bg-three{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/assets/images/g3.jpg);
+}
+.bg-four{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/assets/images/g5.jpg);
+}
+.bg-five{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/assets/images/g6.jpg);
+}
+.bg-six{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/assets/images/g4.jpg);
+}
+
+.bg-seven{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/g1.jpg);
+}
+.bg-eight{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/g2.jpg);
+}
+.bg-ninth{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/g3.jpg);
+    background-size: cover;
+}
+.bg-eleventh{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/g5.jpg);
+}
+.bg-twelve{
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/g4.jpg);
+}
+.parent:hover .child{
+transform: scale(1.2);
+}
+
+#mid-photo{
+    height: 550px;
+}
+#mid-foto{
+    height: 550px;
+}
+
+.pc-one{
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+   
+}
+.pc-one1{
+    color: wheat;
+    padding: 100px;
+    top: 0;
+    height:300px;
+    left: -100%;
+    width: 100%;
+    background: rgba(7, 7, 7,.7);
+    position: absolute;
+    
+}
+.pc-one:hover .pc-one1{
+    left: 0%;
+}
+
+
+/*---------------------------projrct portfoliyo------*/
+
+/*------------------------pro--------------------*/
+.pro1{
+    height: 120px;
+    width: 100%;
+    background: white;
+    border-radius: 5px 5px ;
+    box-shadow: 0 4px 6px -1px rgb(0,0,0,0.5);
+
+}
+.pro1:hover{
+   background: #131313;
+   color: white;
+   box-shadow: 0 4px 6px -1px rgba(250, 99, 132, 0.5);
+}
+
+
+/*------------------------pro--------------------*/
+
+/*-------------gallery-banner-----*/
+
+.gallery-banner{
+    height: auto;
+    width: 100%;
+    background: #131313;
+    position: relative;
+}
+.gallery-left{
+     background-color:#252525;
+}
+.gallery-right{
+    height: 500px;
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/01-06-2021/photogenic-liberty-demo_Free/812494057/web/assets/images/banner1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.gallery-slider{
+position: absolute;
+height: 400px;
+width: 95%;
+margin: auto;
+background-size: cover;
+border: 1px solid white;
+}
+
+
+
+
+
+
+/*-------------gallery-banner-----*/
+
+
+
+/*------------------------------my-one-img-----------------*/
+.box{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 4px 6px -1px rgb(0,0,0,0.5);
+    
+    }
+    .box .box-img img{ 
+    height: 300px;
+    width: 100%;
+    perspective: 1000px;}
+
+    .box .box-img img{transform: rotateY(0);transition: all 0.5s;}
+    .box:hover .box-img img{transform: rotateY(-90deg);}
+    
+    .box .content{height: 300px;
+    width: 100%;
+    position: absolute;
+    border-radius: 5px 5px 5px 5px;
+    top: 0%;
+    left: 0%;
+    background: rgb(148, 46, 63);
+    padding: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    transform: rotateY(-90deg);
+    transition: all 0.5s ease-in-out 0s;}
+    .box:hover .content{transform: rotateY(0);}
+
+#p1{
+    background-color: burlywood;
+}
+#p2{
+    background-color: rgb(33, 78, 33);
+}
+#p3{
+    background-color: pink;
+}
+#p4{
+    background-color:rgb(148, 46, 63) ;
+}
+#p5{
+    background-color: #9464ec;
+}
+#p6{
+    background-color: #5284b9;
+}
+#p7{
+    background-color: rgb(243, 176, 87);
+}
+#p8{
+    background-color: rgb(178, 239, 247);
+}
+    
+/*------------------------------my-one-img-----------------*/
+
+.main {
+    display: flex;
+    overflow: hidden;
+    height: 50vw;
+    background: #333;
+  }
+
+  /*------------------image slide------------------*/  
+  .main img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 2px solid white;
+    box-sizing: border-box;
+    transition: opacity 0.2s;
+  }
+  
+  .main:hover img {
+    opacity: 0.5;
+  }
+  
+  .main img:hover {
+    opacity: 1;
+  }
+  
+  .main .single-column {
+    animation: var(--animation, none) 16s infinite linear;
+  }
+  
+  .main .single-column:hover {
+    animation-play-state: paused;
+  }
+  
+  .main .single-column:nth-of-type(odd) {
+    align-self: flex-end;
+    --direction: 50%;
+  }
+  
+  @-webkit-keyframes slide {
+    to {
+      -webkit-transform: translateY(var(--direction, -50%));
+      transform: translateY(var(--direction, -50%));
+    }
+  }
+  @keyframes slide {
+    to {
+      -webkit-transform: translateY(var(--direction, -50%));
+      transform: translateY(var(--direction, -50%));
+    }
+  }
+/*------------------image slide------------------*/  
+
+
+/*----------------------contact section ----------------*/
+.contact-image{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-image: url(https://demo.w3layouts.com/demosWTR/Freedom/30-01-2020/weird-freedom-demo_Free/433096426/web/assets/images/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-image1{
+    height: 400px;
+    width: 100%;
+    background-image: url(./img/dots.png);
+    position: absolute;
+    padding: 100px;
+}
+
+.contact-forms input, .contact-forms textarea, .contact-forms select {
+    font-size: 15px;
+    color: #000;
+    padding: 1em 1em;
+    background: #f6f6f6;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    outline: none !important;
+}
+.contact-forms select{
+	padding: 0em 1em;
+    height: 52px !important;
+	color: #777;
+}
+button.sent-butnn {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 2px;
+    outline: none;
+	color: #fff;
+	background:#e83e8c;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+.contact-left-form {
+    padding: 3em;
+    background: #fff;
+	box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+}
+.contact-right h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+.contact-right h5 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+/*----------------------contact section end----------------*/
+
+
+
+
+/*--------------------------footer-----------------*/
+.footer-icon{
+    border: 2px solid rgb(148, 46, 63);  
+}
+.footer-icon:hover{
+    border: 2px solid white;
+    color: #dc3545;
+    transition:  ease-in-out;
+}
+
+.icon-colour:hover{
+   
+    color:rgb(148, 46, 63);
+}
+
+
+/*--------------------------footer-----------------*/
+
+
+
+
+
+
+
